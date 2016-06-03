@@ -40,7 +40,7 @@ const proxyAddress = myContract.GetRelay.call('Count()')
 web3.eth.sendTransaction({ from: web3.eth.accounts[0], to: proxyAddress })
 ```
 
-See [/contracts/Relay.sol](https://github.com/raineorshine/relay/blob/master/contracts/MyContract.sol) and [/test/TestMyContract.sol](https://github.com/raineorshine/relay/blob/master/test/TestMyContract.js) for details.
+See [/contracts/Relay.sol](https://github.com/Shapeshift-Public/relay/blob/master/contracts/MyContract.sol) and [/test/TestMyContract.sol](https://github.com/Shapeshift-Public/relay/blob/master/test/TestMyContract.js) for details.
 
 ## Contributing
 
